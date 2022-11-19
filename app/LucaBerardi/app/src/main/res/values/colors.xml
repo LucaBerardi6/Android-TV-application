@@ -1,0 +1,8 @@
+<resources>
+    <color name="brand">#5D72EA</color>  
+    <color name="selectedC">#ffaa3f</color>
+    <color name="defaultC">#3d3d3d</color>
+    <color name="buttonFocused">#A5A1A1</color>
+    <color name="buttonNoFocused">#EEEEEE</color>
+    <color name="text">#EEEEEE</color>
+</resources>
