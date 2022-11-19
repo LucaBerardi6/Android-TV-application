@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">LucaBerardi</string>
-    <string name="title">INIZIA A GIOCARE!</string>
-    <string name="back_home">Clicca per giocare ancora!</string>
-    <string name="nextButton">INIZIA!</string>
-    <string name="nextTxt"> È il turno del giocatore 2 \n clicca il pulsante per iniziare!</string>
+    <string name="app_name">AndroidTVAppName</string>
+    <string name="title">START PLAYING!</string>
+    <string name="back_home">Click to play again!</string>
+    <string name="nextButton">START!</string>
+    <string name="nextTxt"> It is Player 2s turn \n click the button to start!</string>
 </resources>
