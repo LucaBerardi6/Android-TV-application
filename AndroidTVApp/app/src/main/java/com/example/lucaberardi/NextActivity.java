@@ -8,6 +8,12 @@ import android.view.View;
 import android.widget.Button;
 
 
+/**
+ * The activity used only in the case in which the modality that
+ * foresees the challenge between two players is chosen.
+ * The second player is invited to prepare, as he is about to start his turn.
+ */
+
 public class NextActivity extends Activity {
 
     private int scorePlayer1;
@@ -31,7 +37,7 @@ public class NextActivity extends Activity {
                         Intent intent2 = new Intent(NextActivity.this, GameActivity.class);
                         intent2.putExtra("mode", mode);
                         intent2.putExtra("scorePlayer1",  scorePlayer1);
-                        intent2.putExtra("player2",  1); //turno del secondo giocatore
+                        intent2.putExtra("player2",  1); //second player's turn
                          startActivity(intent2);
                          }
 

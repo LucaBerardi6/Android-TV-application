@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     android:background="@drawable/backgroundgame">
 
-    <!-- zona esterna -->
+    <!-- external area -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +15,7 @@
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp">
 
-        <!-- area interna che protegge gli elementi dall'overscan-->
+        <!--internal area that protects items from overscan-->
 
         <TextView
             android:id="@+id/textView"

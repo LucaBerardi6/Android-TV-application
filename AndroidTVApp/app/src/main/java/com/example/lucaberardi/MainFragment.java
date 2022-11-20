@@ -1,11 +1,7 @@
 package com.example.lucaberardi;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.os.Handler;
-
-import androidx.leanback.app.BackgroundManager;
 import androidx.leanback.app.BrowseFragment;
 import androidx.leanback.widget.ArrayObjectAdapter;
 import androidx.leanback.widget.HeaderItem;
@@ -16,18 +12,17 @@ import androidx.leanback.widget.Presenter;
 import androidx.leanback.widget.Row;
 import androidx.leanback.widget.RowPresenter;
 import androidx.core.content.ContextCompat;
-
-import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.View;
-import android.widget.Toast;
-
 import java.util.List;
+
+/**
+ * The MainFragment class is used to create the main layout.
+ * */
 
 public class MainFragment extends BrowseFragment {
     private static final String TAG = "MainFragment";
 
-   //quando viene creata:
+   /**At the time of creation.*/
    public void onActivityCreated(Bundle savedInstanceState) {
 
        super.onActivityCreated(savedInstanceState);
@@ -40,55 +35,53 @@ public class MainFragment extends BrowseFragment {
    }
 
 
-    //aggiunta delle righe:
+    /**Load the game modes and cards of the different
+     * types of challenges that the user can choose from.*/
    private void addRows() {
        List<Mode> list = ModeList.getList();
-
        ArrayObjectAdapter rowsAdapter = new ArrayObjectAdapter(new ListRowPresenter());
        CardPresenter cardPresenter = new CardPresenter();
        int j;
-       //AGGIUNTA DELLA PRIMA RIGA:
+       //ADDING THE FIRST ROW:
       ArrayObjectAdapter cardAdapter = new ArrayObjectAdapter(cardPresenter);
        for ( j = 0; j < 3; j++) {
-           cardAdapter.add(list.get(j)); // CREA LISTA DI SCHEDE
+           cardAdapter.add(list.get(j)); // CREATE CARDS LIST
        }
-       // aggiunge modalità un giocatore:
+       //Adds one player mode:
        HeaderItem header = new HeaderItem(0, ModeList.GAMEMODE[0]);
-       rowsAdapter.add(new ListRow(header, cardAdapter)); //RIGA 1
+       rowsAdapter.add(new ListRow(header, cardAdapter)); // row 1
        //
-       //AGGIUNTA DELLA SECONDA RIGA:
+       //ADDING SECOND LINE:
        ArrayObjectAdapter cardAdapter2 = new ArrayObjectAdapter(cardPresenter);
        for ( j = 3; j < 6; j++) {
-           cardAdapter2.add(list.get(j)); // CREA LISTA DI SCHEDE
+           cardAdapter2.add(list.get(j)); // CREATE CARDS LIST
        }
-       // aggiunge modalità due giocatori:
+       //adds two player mode:
        HeaderItem header2 = new HeaderItem(1, ModeList.GAMEMODE[1]);
        rowsAdapter.add(new ListRow(header2, cardAdapter2)); //RIGA 2
-        //
-        //IMPOSTA LE RIGHE:
+        //SET ROWS:
        setAdapter(rowsAdapter);
    }
 
-
-
+   /**It defines the style of some visible elements on the user interface.*/
    private void setScreen() {
 
-       setTitle(getString(R.string.title)); //titolo
+       setTitle(getString(R.string.title)); //title
        setHeadersState(HEADERS_ENABLED);
        setHeadersTransitionOnBackEnabled(true);
 
-       setBrandColor(ContextCompat.getColor(getContext(), R.color.brand)); // (COLORE DELLA BARRA LATERALE CON LE MODALITA')
+       /*SIDEBAR COLOR WITH MODES*/
+       setBrandColor(ContextCompat.getColor(getContext(), R.color.brand));
    }
 
-
-    ///////// EVENTI ///////////////
+   /**Defines listeners for events related to user interaction with the elements present.*/
    private void eventListeners() {
 
        setOnItemViewClickedListener(new ItemViewClickedListener());
 
         }
 
-        //se si clicca una scheda
+        //if you click a tab
 private final class ItemViewClickedListener implements OnItemViewClickedListener {
     @Override
     public void onItemClicked(Presenter.ViewHolder itemViewHolder, Object item,
@@ -97,7 +90,7 @@ private final class ItemViewClickedListener implements OnItemViewClickedListener
         if (item instanceof Mode) {
             Mode mode = (Mode) item;
             Log.d(TAG, "Item: " + item.toString());
-            //intent per nuova activity:
+            //intent for new activity:
             Intent intent = new Intent(getActivity(), GameActivity.class);
             intent.putExtra("mode", mode);
 

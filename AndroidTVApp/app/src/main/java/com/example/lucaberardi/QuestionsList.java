@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * With this class it is possible to create a random list of Question objects.
+ */
 public class QuestionsList {
 
-    /**questions that will be shown*/
+    /**Questions that will be shown.*/
     private static String questions[] = {
             "When was Android TV officially presented?",
             "What is man's best friend?",

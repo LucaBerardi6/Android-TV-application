@@ -1,7 +1,12 @@
  package com.example.lucaberardi;
 
-
-public class Question {
+ /**
+  * With the Question class it is possible to associate a question with
+  * its correct answer and its incorrect answers.
+  * A Question object consists of five variables with their respective Get methods:
+  * the question, the correct answer, and the three possible answers.
+  */
+ public class Question {
 
     private String question;
     private String correctAnswer;
@@ -18,26 +23,31 @@ public class Question {
         this.answer3 = answer3;
     }
 
+    //--------------GET METHODS:-----------------------
 
-    // METODI GET:
-
-
+    /** Returns the question. */
     public String getQuestion() {
         return question;
     }
 
+    /** Returns the Correct Answer. */
     public String getCorrectAnswer() {
         return correctAnswer;
     }
 
+    /** Returns the first answer. */
     public String getAnswer1() {
         return answer1;
     }
 
+    /** Returns the second answer. */
     public String getAnswer2() {
         return answer2;
     }
 
-    public String getAnswer3() {    return answer3; }
+    /** Returns the third answer. */
+    public String getAnswer3() {
+        return answer3;
+    }
 
 }

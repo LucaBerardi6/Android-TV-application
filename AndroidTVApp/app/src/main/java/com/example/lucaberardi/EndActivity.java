@@ -8,7 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-
+/**
+ * the Activity used at the end of each game.
+ * The outcome of the game is displayed on the user interface and
+ * it is possible to start the MainActivity to start a new one.
+ */
 public class EndActivity extends Activity {
 
     private int scorePlayer1;
@@ -29,8 +33,8 @@ public class EndActivity extends Activity {
         Button b = findViewById(R.id.home);
 
         
-        if(scorePlayer1!=-1) txt1.setText("Punteggio giocatore 1:  "+scorePlayer1);
-        if(scorePlayer2!=-1) txt2.setText("Punteggio giocatore 2:  "+scorePlayer2);
+        if(scorePlayer1!=-1) txt1.setText("Player 1 Score:  "+scorePlayer1);
+        if(scorePlayer2!=-1) txt2.setText("Player 2 Score:  "+scorePlayer2);
 
         b.setOnClickListener(
                 new View.OnClickListener() {

@@ -4,4 +4,5 @@
     <string name="back_home">Click to play again!</string>
     <string name="nextButton">START!</string>
     <string name="nextTxt"> It is Player 2s turn \n click the button to start!</string>
+    <string name="firstMode"> SINGLE PLAYER:</string>
 </resources>

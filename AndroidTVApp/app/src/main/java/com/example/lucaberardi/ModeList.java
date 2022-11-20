@@ -3,16 +3,21 @@ package com.example.lucaberardi;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ModeList provides a list of Modes.
+ */
 public final class ModeList {
     public static final String GAMEMODE[] = {
-            "UN GIOCATORE:",
-            "DUE GIOCATORI:",
+            "SINGLE PLAYER:",
+            "1 VS 1:",
 
     };
 
+    /**List of Modes. */
     private static ArrayList<Mode> list;
 
 
+    /** return the list of Modes. */
     public static ArrayList<Mode> getList() {
         if (list == null) {
             list = setupMode();
@@ -20,29 +25,35 @@ public final class ModeList {
         return list;
     }
 
+    /**Initialize the list of Modes.*/
     public static ArrayList<Mode> setupMode() {
         list = new ArrayList<>();
+
+        /**mode title*/
         String title[] = {
-                "5 DOMANDE", "10 DOMANDE","15 DOMANDE",
-                "5 DOMANDE", "10 DOMANDE", "15 DOMANDE",
+                "5 QUESTIONS", "10 QUESTIONS","15 QUESTIONS",
+                "5 QUESTIONS", "10 QUESTIONS", "15 QUESTIONS",
         };
 
-
+        /**Mode description.*/
         String description[] = {
-                "Modalità singolo giocatore",  "Modalità singolo giocatore",  "Modalità singolo giocatore",
-                "Sfida un amico", "Sfida un amico","Sfida un amico"
+                "Single player mode",  "Single player mode",  "Single player mode",
+                "play against a friend", "play against a friend","play against a friend"
         };
 
+        /**Number of players in the mode.*/
         int players[] = {
                 1, 1, 1,
                 2, 2, 2,
         };
 
+        /**Number of question in the mode.*/
         int question[] = {
                5, 10, 15,
                 5, 10, 15
         };
 
+        /**Image used in the main screen for that mode.*/
         int image[] = {
                  R.drawable.ungiocatore,R.drawable.ungiocatore, R.drawable.ungiocatore,
                 R.drawable.duegiocatori,R.drawable.duegiocatori, R.drawable.duegiocatori
@@ -56,6 +67,7 @@ public final class ModeList {
         return list;
     }
 
+    /**Returns the game mode.*/
     private static Mode getMode(String title,String description,int players,int question, int image) {
         Mode mode = new Mode();
         mode.setTitle(title);
