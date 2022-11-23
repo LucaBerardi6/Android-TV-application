@@ -26,3 +26,20 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 • [NextActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/NextActivity.java): the Activity used when the challenge between two players is chosen. The second player is invited to prepare, as he is about to start his turn.
 
 • [EndActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/EndActivity.java): the Activity used at the end of each game. The outcome of the game is displayed on the user interface and it is possible to start the MainActivity to play a new game.
+
+<!--
+## Screenshots of the app
+Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/UniIdeas/GestureRec/tree/main/Images)):
+<p align="left">
+  <img src="Images/SchermataHome.jpg" style="width:300px;height:500px"> 
+  &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp   &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
+  <img  height="500" width="300" alt="GIF" src="https://github.com/UniIdeas/GestureRec/blob/main/Images/video.gif">
+</p>
+  </br> </br> </br> 
+  <p>
+  <img src="Images/photo3.png" style="width:300px;height:500px">
+    &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp   &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
+  <img src="Images/photo2.jpg" style="width:300px;height:500px">
+ 
+  
+</p>>
