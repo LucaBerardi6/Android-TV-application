@@ -56,7 +56,7 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
 ## Other details
 Dark backgrounds have been used and a light gray color has been chosen for most of the text, so as not to create difficulties for the user in reading and viewing the elements. In addition, for better processing, the text is always divided into small parts.
 Each element has been made to a size that allows the user to see it properly at a distance of three meters and has been positioned to be easily reached, thus creating a coherent navigation for a TV device.
-All the layouts have been created with a horizontal orientation and, in addition to the resources available in the [AndroidX Leanback library](https://developer.android.com/reference/androidx/leanback/app/package-summary.html), RelativeLayout and LinearLayout have been used exclusively to create the View containers, so as to adapt the layout to the different characteristics of the television screens.
+All the layouts have been created with a horizontal orientation and, in addition to the resources available in the [AndroidX Leanback](https://developer.android.com/reference/androidx/leanback/app/package-summary.html) library, RelativeLayout and LinearLayout have been used exclusively to create the View containers, so as to adapt the layout to the different characteristics of the television screens.
 
 ## Bibliograpy
 - [Android](https://www.android.com/)
