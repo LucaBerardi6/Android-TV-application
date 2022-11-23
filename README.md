@@ -29,10 +29,7 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 
 ## Sample video of the app
 
-
-https://user-images.githubusercontent.com/101281201/203583889-c5e777c9-540b-4419-9660-06e12c7b9572.mp4
-
-
+https://user-images.githubusercontent.com/101281201/203584906-8983f613-1d2c-4de1-83ac-b75d1417ec08.mp4
 
 ## Screenshots of the app
 Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/LucaBerardi6/Android-TV-application/tree/main/Images)):
