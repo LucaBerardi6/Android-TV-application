@@ -45,8 +45,6 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
   <p>
   <img src="Images/2Players.png" style="width:800px;height:500px"> 
 </p>
- <p>
-  <img src="Images/end.png" style="width:800px;height:500px"> 
-</p>
+
 
  <!--<img  height="500" width="300" alt="GIF" src="https://github.com/UniIdeas/GestureRec/blob/main/Images/video.gif">-->
