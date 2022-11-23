@@ -1,4 +1,4 @@
-# Android-TV-application
+<h1 align=center>Android-TV-application</h1> <br>
 Prototype of an application based on the Android TV platform.
 
 ## Abstract
