@@ -27,19 +27,24 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 
 • [EndActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/EndActivity.java): the Activity used at the end of each game. The outcome of the game is displayed on the user interface and it is possible to start the MainActivity to play a new game.
 
-<!--
+
 ## Screenshots of the app
-Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/UniIdeas/GestureRec/tree/main/Images)):
+Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/LucaBerardi6/Android-TV-application/tree/main/Images)):
 <p align="left">
-  <img src="Images/SchermataHome.jpg" style="width:300px;height:500px"> 
-  &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp   &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
-  <img  height="500" width="300" alt="GIF" src="https://github.com/UniIdeas/GestureRec/blob/main/Images/video.gif">
+  <img src="Images/home.png" style="width:800px;height:500px" > 
+  </p>
+  </br> 
+   <p>
+   <img src="Images/game.png" style="width:800px;height:500px"> 
 </p>
-  </br> </br> </br> 
+  </br> 
   <p>
-  <img src="Images/photo3.png" style="width:300px;height:500px">
-    &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp   &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
-  <img src="Images/photo2.jpg" style="width:300px;height:500px">
- 
-  
-</p>>
+  <img src="Images/SinglePlayer.png" style="width:800px;height:500px"> 
+ </p>
+  </br>
+  <p>
+  <img src="Images/2Players.png" style="width:800px;height:500px"> 
+</p>
+
+
+ <!--<img  height="500" width="300" alt="GIF" src="https://github.com/UniIdeas/GestureRec/blob/main/Images/video.gif">-->
