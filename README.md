@@ -14,6 +14,7 @@ For each of the two modes there are three types of challenges:
 • game with ten questions <br>
 • game with fifteen questions <br>
 
+
 ## Development
 The application was developed using four Activities:
 
@@ -27,11 +28,11 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 
 • [EndActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/EndActivity.java): the Activity used at the end of each game. The outcome of the game is displayed on the user interface and it is possible to start the MainActivity to play a new game.
 
+
 ## Sample video of the app
 
-
-
 https://user-images.githubusercontent.com/101281201/203586041-b4ca2c10-f166-44a5-b17f-4131795ca478.mp4
+
 
 
 
@@ -53,10 +54,12 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
   <img src="Images/2Players.png" style="width:800px;height:500px"> 
 </p>
 
+
 ## Other details
 Dark backgrounds have been used and a light gray color has been chosen for most of the text, so as not to create difficulties for the user in reading and viewing the elements. In addition, for better processing, the text is always divided into small parts.
 Each element has been made to a size that allows the user to see it properly at a distance of three meters and has been positioned to be easily reached, thus creating a coherent navigation for a TV device.
 All the layouts have been created with a horizontal orientation and, in addition to the resources available in the [AndroidX Leanback](https://developer.android.com/reference/androidx/leanback/app/package-summary.html) library, RelativeLayout and LinearLayout have been used exclusively to create the View containers, so as to adapt the layout to the different characteristics of the television screens.
+
 
 ## Bibliograpy
 - [Android](https://www.android.com/)
