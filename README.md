@@ -2,11 +2,6 @@
 Prototype of an application based on the Android TV platform.
 
 ## Abstract
-
-
-https://github.com/LucaBerardi6/Android-TV-application/blob/main/Images/video.mp4
-
-
 The prototype created is a quiz game, in which questions are asked to be answered correctly. The user can choose one of the following two game modes:
 
 •  <strong>Single player:</strong> You can play alone on your TV. The user is asked a series of questions and, for each of them, he must select, among the three options proposed, the one he deems correct. Only at the end of the game, after having answered all the questions, the user gets a score based on the correct answers given during the game.
