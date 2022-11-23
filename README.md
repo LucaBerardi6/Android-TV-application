@@ -28,7 +28,7 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 
 • [EndActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/EndActivity.java): the Activity used at the end of each game. The outcome of the game is displayed on the user interface and it is possible to start the MainActivity to play a new game.
 
-The [Question](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/Question.java) class has been created with which it is possible to associate its correct answer and its incorrect answers to a question. A Question object consists of five variables with their respective Get methods: the question, the correct answer, and the three possible answers.
+The [Question](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/Question.java) class has been created with which it is possible to associate its correct answer and its incorrect answers to a question. A Question object consists of five variables: the question, the correct answer, and the three possible answers.
 
 A game mode is represented by a [Mode](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/Mode.java) object. A Mode object consists of a set of variables that are:
 a title that identifies the type of challenge, a description, the number of players, the number of questions, an image.
