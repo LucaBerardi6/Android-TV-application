@@ -53,5 +53,8 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
   <img src="Images/2Players.png" style="width:800px;height:500px"> 
 </p>
 
-
-
+## Bibliograpy
+- [Android TV](https://developer.android.com/training/tv)
+- [Android Developers](https://developer.android.com/)
+- [Android](https://www.android.com/)
+- [Androidx Leanback](https://developer.android.com/reference/androidx/leanback/app/package-summary)
