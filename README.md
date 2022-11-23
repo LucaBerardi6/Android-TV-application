@@ -2,13 +2,6 @@
 Prototype of an application based on the Android TV platform.
 
 ## Abstract
-
-
-
-https://user-images.githubusercontent.com/101281201/203583325-b8b60bc3-8977-4152-b8a5-08907e70a7ca.mp4
-
-
-
 The prototype created is a quiz game, in which questions are asked to be answered correctly. The user can choose one of the following two game modes:
 
 •  <strong>Single player:</strong> You can play alone on your TV. The user is asked a series of questions and, for each of them, he must select, among the three options proposed, the one he deems correct. Only at the end of the game, after having answered all the questions, the user gets a score based on the correct answers given during the game.
@@ -34,13 +27,15 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 
 • [EndActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/EndActivity.java): the Activity used at the end of each game. The outcome of the game is displayed on the user interface and it is possible to start the MainActivity to play a new game.
 
+## Sample video of the app
+
+
+https://user-images.githubusercontent.com/101281201/203583889-c5e777c9-540b-4419-9660-06e12c7b9572.mp4
+
+
 
 ## Screenshots of the app
 Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/LucaBerardi6/Android-TV-application/tree/main/Images)):
-<p align="center">
-  <img  height="500" width="800" alt="GIF" src="https://github.com/LucaBerardi6/Android-TV-application/blob/main/Images/video.gif">
-  </p>
-  </br> 
 <p align="center">
   <img src="Images/home.png" style="width:800px;height:500px" > 
   </p>
