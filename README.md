@@ -31,7 +31,7 @@ The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/
 ## Screenshots of the app
 Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/LucaBerardi6/Android-TV-application/tree/main/Images)):
 <p align="center">
-  <img  height="500px" width="800px" alt="GIF" src="https://github.com/LucaBerardi6/Android-TV-application/blob/main/Images/video.gif">
+  <img  height="500" width="800" alt="GIF" src="https://github.com/LucaBerardi6/Android-TV-application/blob/main/Images/video.gif">
   </p>
   </br> 
 <p align="center">
