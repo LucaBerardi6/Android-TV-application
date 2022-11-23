@@ -10,9 +10,9 @@ The prototype created is a quiz game, in which questions are asked to be answere
 
 For each of the two modes there are three types of challenges:
 
-• game with five questions
-• game with ten questions
-• game with fifteen questions
+• game with five questions <br>
+• game with ten questions <br>
+• game with fifteen questions <br>
 
 ## Development
 The application was developed using four Activities:
