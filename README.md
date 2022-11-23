@@ -18,6 +18,8 @@ For each of the two modes there are three types of challenges:
 The application was developed using four Activities:
 
 • [MainActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/MainActivity.java): the launch Activity which represents the main screen of the application where it is possible to choose the game mode and the type of challenge.
+The [MainFragment](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/MainFragment.java) class is used to create the layout.
+The [CardPresenter](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/CardPresenter.java) class was used to create each of the home cards. With this class it is possible to create a View associated with the game mode.
 
 • [GameActivity](https://github.com/LucaBerardi6/Android-TV-application/blob/main/AndroidTVApp/app/src/main/java/com/example/lucaberardi/GameActivity.java): the Activity that represents the game screen. The user interacts with the application by answering the questions, selecting the option he deems correct.
 
