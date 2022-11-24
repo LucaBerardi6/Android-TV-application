@@ -42,19 +42,19 @@ https://user-images.githubusercontent.com/101281201/203822499-11feade5-eda1-4814
 ## Screenshots of the app
 Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/LucaBerardi6/Android-TV-application/tree/main/Images)):
 <p align="center">
-  <img src="Images/home.png" style="width:800px;height:500px" > 
+  <img src="Images/home.png"  > 
   </p>
   </br> 
   <p align="center">
-   <img src="Images/game.png" style="width:800px;height:500px"> 
+   <img src="Images/game.png" > 
 </p>
   </br> 
   <p align="center">
-  <img src="Images/SinglePlayer.png" style="width:800px;height:500px"> 
+  <img src="Images/SinglePlayer.png" > 
  </p>
   </br>
  <p align="center">
-  <img src="Images/2Players.png" style="width:800px;height:500px"> 
+  <img src="Images/2Players.png" > 
 </p>
 
 
