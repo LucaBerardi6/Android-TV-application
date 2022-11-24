@@ -36,9 +36,7 @@ A Mode is used in conjunction with the CardPresenter class to create the cards v
 
 ## Sample video of the app
 
-https://user-images.githubusercontent.com/101281201/203586041-b4ca2c10-f166-44a5-b17f-4131795ca478.mp4
-
-
+https://user-images.githubusercontent.com/101281201/203822499-11feade5-eda1-4814-bfaa-90d90c1f2dab.mp4
 
 
 ## Screenshots of the app
