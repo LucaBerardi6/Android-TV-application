@@ -1,5 +1,5 @@
 <h1 align=center>Android-TV-application</h1> <br>
-Prototype of an application based on the Android TV platform.
+Prototype of a quiz game application based on the Android TV platform.
 
 ## Abstract
 The prototype created is a quiz game, in which questions are asked to be answered correctly. The user can choose one of the following two game modes:
